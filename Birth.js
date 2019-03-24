@@ -13,10 +13,11 @@ function start() {
 		if(t>2&&t<4){
 			alert("屁孩掰掰!");
 		}
-		if(t>2){window.location.href='https://4thminato.github.io/Naruto/';}
+		if(t==3){window.location.href='https://4thminato.github.io/Naruto/';break;}
 		if(t<2){var birth = prompt("请输入您的生日","1900/1/1");}
 		t++;
 	} 
+	if(t<2){
 	var year = 1000 * 60 * 60 * 24 * 365;
 	var age = parseInt((now - birthday) / year);
 	var now = new Date();
@@ -28,6 +29,7 @@ function start() {
 	}
 	else {
 		alert("你"+age+"歲了!");
+	}
 	}
 }
 
