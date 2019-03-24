@@ -7,7 +7,7 @@ function start() {
 		if(Date.parse(birth).valueOf()<Date.parse(dead).valueOf()){if(t<2)alert("唬爛啦!");}
 		else {if(t<2)alert("日期格式錯誤!");}
 		if(t>2&&t<4){alert("屁孩掰掰!");}
-		if(t==3){console.log("start");window.location.href='https://4thminato.github.io/Naruto/';console.log("end");break;}
+		if(t==2){console.log("start");window.location.href='https://4thminato.github.io/Naruto/';console.log("end");break;}
 		if(t<2){var birth = prompt("请输入您的生日","1900/1/1");}
 		t++;
 	} 
